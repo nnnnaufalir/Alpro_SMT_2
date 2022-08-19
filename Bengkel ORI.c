@@ -115,8 +115,7 @@ void menu_sparepart ()
     printf("\n 99. Lanjutkan\n 55. Reset pilihan\n 00.  Kembali\n");
     printf("====================================================\n");
 
-    for (listBarang!=0;listBarang!=99;)
-    {
+    for (listBarang!=0;listBarang!=99;){
             printf("Input Pilihan Barang : ");
             scanf("%d",&listBarang);
 
